@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_payment_grid,access_payment_grid_user,model_payment_grid,base.group_user,1,1,1,1
+
+access_sale_order_exe,access_sale_order_sales_exe,sale.model_sale_order,group_sale_executive,1,1,1,1
+access_sale_order_line_exe,access_sale_order_line_exe,sale.model_sale_order_line,group_sale_executive,1,1,1,1
+

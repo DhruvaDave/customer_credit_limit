@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="view_payment_grid_tree" model="ir.ui.view">
+            <field name="name">payment.grid.tree</field>
+            <field name="model">payment.grid</field>
+            <field name="arch" type="xml">
+                <tree string="Payment Grid">
+                    <field name="sale_ref" />
+                    <field name="invoice_ref" />
+                    <field name="payment_ref" />
+                    <field name="sale_amount" />
+                    <field name="invoice_amount" />
+                    <field name="payment_amount" />
+                    <field name="credit_amount" />
+                    <field name="inc_credit_limit" />
+                    <field name="max_credit_limit" />
+                    <field name="balanced_credit" />
+                </tree>
+            </field>
+        </record>
+
+        
+
+        <record id="action_payment_grid" model="ir.actions.act_window">
+            <field name="name">Payment Grid</field>
+            <field name="res_model">payment.grid</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+   
+
+        <menuitem id="menu_payment_grid"
+            action="action_payment_grid"
+            parent="sale.sale_order_menu"
+            />
+
+        
+</odoo>
