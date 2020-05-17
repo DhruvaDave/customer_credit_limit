@@ -1,28 +1,15 @@
 ====================
-Partner Credit Limit
+Customer Credit Limit
 ====================
 
-* Checks for all over due payment and already paid amount if the difference is positive and acceptable then Salesman able to confirm SO
- 
-* The credit the Partner has to paid.
+* When sale order confrims it will check for credit of Customer.
 
-* The amount of Sale Orders approved but not yet invoiced.
+* When payment entry is made and it will debit credits for that customer.
 
-* The amount of the Sale Order to be approved, and compares it with the credit limit of the partner. If the credit limit is less it does not allow to approve the Sale Order
+* Only sale manager can approve sale entry for more than credit limits.
 
-* If the Allow Over Credit is Checked then the System will not check for the credit limits, and it will allow that partner to override the limit.
+* Payment grid will show all the updated grid bases transaction.
+
 
 Usage
 =====
-
-Bug Tracker
-===========
-
-Credits
-=======
-
-Contributors
-------------
-
-* Serpent Consulting Services Pvt. Ltd. <support@serpentcs.com>
-
