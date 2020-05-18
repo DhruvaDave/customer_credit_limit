@@ -29,10 +29,11 @@
         </record>
         
    
-
+        <!-- Show menu to sales manager only -->
         <menuitem id="menu_payment_grid"
             action="action_payment_grid"
             parent="sale.sale_order_menu"
+            groups="sales_team.group_sale_manager"
             />
 
         

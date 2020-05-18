@@ -12,7 +12,7 @@ class ResPartner(models.Model):
 class payment_grid(models.Model):
     _name = 'payment.grid'
 
-    sale_ref = fields.Char(string="Sale Ref.")
+    sale_ref = fields.Char(string="Sale Ref.",required=True)
     invoice_ref = fields.Char(string="Invoice Ref.")
     payment_ref = fields.Char(string="Payment Ref.")
     sale_amount = fields.Float(string="Sale Amount")

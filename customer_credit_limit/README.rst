@@ -9,7 +9,3 @@ Customer Credit Limit
 * Only sale manager can approve sale entry for more than credit limits.
 
 * Payment grid will show all the updated grid bases transaction.
-
-
-Usage
-=====
